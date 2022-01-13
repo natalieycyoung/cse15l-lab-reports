@@ -1,4 +1,4 @@
-# CSE15L Week 2 Lab Report
+# Markdown Examples
 _Edited with Vim_
 
 # Heading 1
