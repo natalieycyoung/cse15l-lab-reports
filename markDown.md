@@ -4,10 +4,9 @@
 
 *Hello*, **World**!
 
-An image:
-![Image] (https://i.kym-cdn.com/entries/icons/original/000/021/464/14608107_1180665285312703_1558693314_n.jpg)
+[Link] (http://knowyourmeme.com/memes/math-lady-confused-lady)
 
-[Link] (https://knowyourmeme.com/memes/math-lady-confused-lady)
+![Image] (http://i.kym-cdn.com/entries/icons/original/000/021/464/14608107_1180665285312703_1558693314_n.jpg)
 
 * This
 * is
