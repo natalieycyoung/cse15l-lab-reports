@@ -8,6 +8,6 @@ plain-text
 * This
 * is
 * a
-* bullet
-* point
+* bul*let*
+* **point**
 * list
