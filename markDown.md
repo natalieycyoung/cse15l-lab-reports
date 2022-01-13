@@ -7,7 +7,7 @@ _Edited with Vim_
 
 [Avatar Cabbage Merchant](https://avatar.fandom.com/wiki/Cabbage_merchant)
 
-![Image](https://static.wikia.nocookie.net/shipping/images/3/31/My_Cabbages.jpg/)
+![Image](https://www.looper.com/img/gallery/the-truth-about-avatar-the-last-airbenders-cabbage-merchant/intro-1591722918.jpg)
 
 * This
 * is
