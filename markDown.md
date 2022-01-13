@@ -1,7 +1,6 @@
-test
-
-# Markdown Examples
+# CSE15L Week 2 Lab Report
 _Edited with Vim_
+
 # Heading 1
 ## Heading 2
 
