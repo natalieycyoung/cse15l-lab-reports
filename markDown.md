@@ -4,9 +4,9 @@
 
 *Hello*, **World**!
 
-[Link] (https://avatar.fandom.com/wiki/Cabbage_merchant)
+[Link](https://avatar.fandom.com/wiki/Cabbage_merchant)
 
-![Image] (https://static.wikia.nocookie.net/shipping/images/3/31/My_Cabbages.jpg/revision/latest?cb=20201011140912)
+![Image](https://static.wikia.nocookie.net/shipping/images/3/31/My_Cabbages.jpg/revision/latest?cb=20201011140912)
 
 * This
 * is
