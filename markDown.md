@@ -4,9 +4,9 @@
 
 *Hello*, **World**!
 
-[Link] (http://knowyourmeme.com/memes/math-lady-confused-lady)
+[Link] (https://avatar.fandom.com/wiki/Cabbage_merchant)
 
-![Image] (http://i.kym-cdn.com/entries/icons/original/000/021/464/14608107_1180665285312703_1558693314_n.jpg)
+![Image] (https://static.wikia.nocookie.net/shipping/images/3/31/My_Cabbages.jpg/revision/latest?cb=20201011140912)
 
 * This
 * is
