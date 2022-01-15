@@ -5,7 +5,8 @@
 ![Image](Bliss.png)
 
 ## 1. Installing VSCode
-Go to the [VSCode download page](https://code.visualstudio.com/download). Download and run the program installer for your operating system.
+Go to the [VSCode download page](https://code.visualstudio.com/download), then download and run the program installer for your operating system. Once the program is installed, it should look like the following upon startup:
+![Image](vscode.png)
 
 ## 2. Remotely Connecting
 ## 3. Trying Some Commands
