@@ -4,19 +4,23 @@
 
 ## 1. Installing VSCode
 Go to the [VSCode download page](https://code.visualstudio.com/download), then download and run the program installer for your operating system. Once the program is installed, it should look like the following upon startup:
-![Image](vscode.png)
+![vscode](vscode.png)
 
 ## 2. Remotely Connecting
-![Image](remote-connect.png)
+Install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse), then look up your course-specific account at the [UCSD account lookup page](https://sdacs.ucsd.edu/~icc/index.php). All accounts for this course will begin with `cs15lwi22` followed by three letters; mine are `aho`. Using a terminal of your preference, input the command `$ ssh cs15lwi22aho@ieng6.ucsd.edu` with the three letters of your account replacing those of mine. Upon successfully connecting, the following should be displayed:
+
+![remote-connect](remote-connect.png)
 
 ## 3. Trying Some Commands
-![Image](example-commands.png)
+Next, try some commands like the following to ensure that things are working correctly. 
+
+![example-commands](example-commands.png)
 
 ## 4. Moving Files with `scp`
-![Image](secure-copy.png)
+![secure-copy](secure-copy.png)
 
 ## 5. Setting an SSH Key
-![Image](ssh-proof.png)
+![ssh-proof](ssh-proof.png)
 
 ## 6. Optimizing Remote Running
-![Image](vscode.png)
+![omptimizing-remote](vscode.png)
