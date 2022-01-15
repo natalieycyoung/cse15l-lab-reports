@@ -4,6 +4,7 @@
 
 ## 1. Installing VSCode
 Go to the [VSCode download page](https://code.visualstudio.com/download), then download and run the program installer for your operating system. Once the program is installed, it should look like the following upon startup:
+
 ![vscode](vscode.png)
 
 ## 2. Remotely Connecting
@@ -12,15 +13,34 @@ Install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration
 ![remote-connect](remote-connect.png)
 
 ## 3. Trying Some Commands
-Next, try some commands like the following to ensure that things are working correctly. 
+Next, try some commands like the following to ensure that things are working correctly. I just used some basic commands to list the files in the current directory, display the directory path, go up one directory, and list the files in that directory:
 
-![example-commands](example-commands.png)
+![example-commands](example-commands.PNG)
+
+The `exit` command or CTRL+D can be used to log out of the remote server from the terminal.
 
 ## 4. Moving Files with `scp`
+To move files with the secure copy command `scp`, write the command, the filename, and the destination folder like in the image below. Input your SSH password when prompted and the filename will appear on the next line if successful.
+
 ![secure-copy](secure-copy.png)
 
 ## 5. Setting an SSH Key
+Completing the previous step multiple times while working on a programming assignment may hinder workflow, so it is essential to set an SSH key. To do so, input the command `$ ssh-keygen`. There will be a prompt to enter and confirm a passphrase, but for the purpose of a lower-division CS course, there isn't really a need to set one.
+
+Then, the public key needs to be added to the `.ssh` directory of your course-specific account on the server:
+```
+$ ssh cs15lwi22aho@ieng6.ucsd.edu
+$ Password:
+$ mkdir .ssh
+$ exit
+$ scp /Users/nyoung/.ssh/id_rsa.pub cs15lwi22aho@ieng6.ucsd.edu:~/.ssh/authorized_keys
+```
+
+If successful, it should be possible to `ssh` or `scp` from the client to the server without needing to enter a password:
+
 ![ssh-proof](ssh-proof.png)
 
 ## 6. Optimizing Remote Running
-![omptimizing-remote](vscode.png)
+There are some shortcuts that can be used to make running commands on the remote service more efficient. By surrounding a command in double quotes, logging into the remote server and running the command can be done in just one line:
+
+![optimizing-remote](optimizing-remote.PNG)
