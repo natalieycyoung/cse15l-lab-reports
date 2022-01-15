@@ -28,13 +28,13 @@ To move files with the secure copy command `scp`, write the command, the filenam
 Completing the previous step multiple times while working on a programming assignment may hinder workflow, so it is essential to set an SSH key. To do so, input the command `$ ssh-keygen`. There will be a prompt to enter and confirm a passphrase, but for the purpose of a lower-division CS course, there isn't really a need to set one.
 
 Then, the public key needs to be added to the `.ssh` directory of your course-specific account on the server:
-``
+```
 $ ssh cs15lwi22aho@ieng6.ucsd.edu
 $ Password:
 $ mkdir .ssh
 $ exit
 $ scp /Users/nyoung/.ssh/id_rsa.pub cs15lwi22aho@ieng6.ucsd.edu:~/.ssh/authorized_keys
-``
+```
 
 If successful, it should be possible to `ssh` or `scp` from the client to the server without needing to enter a password:
 
