@@ -43,4 +43,4 @@ If successful, it should be possible to `ssh` or `scp` from the client to the se
 ## 6. Optimizing Remote Running
 There are some shortcuts that can be used to make running commands on the remote service more efficient. By surrounding a command in double quotes, logging into the remote server and running the command can be done in just one line:
 
-![omptimize-remote](omptimize-remote.png)
+![omptimizing-remote](omptimizing-remote.png)
