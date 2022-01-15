@@ -1,5 +1,6 @@
 # Lab Report 1 Week 2
 
+[Lab 1: Remote Access and the Filesystem](https://ucsd-cse15l-w22.github.io/week/week1/)
 [Report Guidelines](https://ucsd-cse15l-w22.github.io/week/week2/#week-2-lab-report)
 
 ## 1. Installing VSCode
