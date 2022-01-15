@@ -15,7 +15,7 @@ Install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration
 ## 3. Trying Some Commands
 Next, try some commands like the following to ensure that things are working correctly. I just used some basic commands to list the files in the current directory, display the directory path, go up one directory, and list the files in that directory:
 
-![example-commands](example-commands.png)
+![example-commands](example-commands.PNG)
 
 The `exit` command or CTRL+D can be used to log out of the remote server from the terminal.
 
@@ -43,4 +43,4 @@ If successful, it should be possible to `ssh` or `scp` from the client to the se
 ## 6. Optimizing Remote Running
 There are some shortcuts that can be used to make running commands on the remote service more efficient. By surrounding a command in double quotes, logging into the remote server and running the command can be done in just one line:
 
-![omptimizing-remote](omptimizing-remote.png)
+![optimizing-remote](optimizing-remote.png)
