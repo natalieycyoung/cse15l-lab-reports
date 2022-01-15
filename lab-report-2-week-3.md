@@ -1,6 +1,7 @@
 # Lab Report 2 Week 3
 
 [Lab 2: GitHub and GitHub Pages](https://ucsd-cse15l-w22.github.io/week/week2/)
+
 [Report Guidelines]()
 
 ## 1. Task 1
