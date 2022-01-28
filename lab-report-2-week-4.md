@@ -9,9 +9,9 @@
 ## 1. Bug Fix 1 - Skipping lines and excluding links
 In lab 3, we came across a bug where the program wouldn't be able to skip lines and included links that were not in proper format. As can be seen in the following images, we added code to fix these issues.
 
-![bug-fix-1-0](Images/3-bug-fix-1-0.png)
-![bug-fix-1-1](Images/3-bug-fix-1-1.png)
-![bug-fix-1-2](Images/3-bug-fix-1-2.png)
+![bug-fix-1-0](Images/3-bug-fix-1-0.PNG)
+![bug-fix-1-1](Images/3-bug-fix-1-1.PNG)
+![bug-fix-1-2](Images/3-bug-fix-1-2.PNG)
 
 ## 2. Bug Fix 2
 
