@@ -43,6 +43,14 @@ If successful, it should be possible to `ssh` or `scp` from the client to the se
 ![ssh-proof](Images/ssh-proof.png)
 
 ## 6. Optimizing Remote Running
-There are some shortcuts that can be used to make running commands on the remote service more efficient. By surrounding a command in double quotes, logging into the remote server and running the command can be done in just one line:
+There are some shortcuts that can be used to make running commands on the remote service more efficient:
 
-![optimizing-remote](Images/optimizing-remote.PNG)
+By surrounding a command in double quotes, logging into the remote server and running the command can be done in just one line.
+
+By using the `^` key, I didn't need to type in the `ssh cs15lwi22aho@ieng6.ucsd.edu` again. I replaced `ls` with `javac WhereAmI.java` to compile the file in the remote server.
+
+Then, using the `^` key again, I replaced the compile command in the quotes with `java WhereAmI` to run the file.
+
+![1-optimizing-remote](Images/1-optimizing-remote.png)
+
+It took six keystrokes for the first list files command. For the second command, it took the number of keystrokes to replace `ls` with the compile command. For the third and last command, it took the number of keystrokes to replace the `javac` command with `java`. Overall, it took less than thirty seconds to run the three commands.
