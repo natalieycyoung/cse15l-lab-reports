@@ -6,9 +6,17 @@
 
 [Report Guidelines](https://ucsd-cse15l-w22.github.io/week/week4/#week-4-lab-report)
 
-## 1. Task 1
+## 1. Bug Fix 1
 Go to the [VSCode download page](https://code.visualstudio.com/download), then download and run the program installer for your operating system. Once the program is installed, it should look like the following upon startup:
 
 ![vscode](Images/vscode.png)
 
-## 2. Task 2
+## 2. Bug Fix 2
+
+
+![vscode](Images/vscode.png)
+
+## 2. Bug Fix 2
+
+
+![vscode](Images/vscode.png)
