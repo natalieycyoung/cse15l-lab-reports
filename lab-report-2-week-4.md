@@ -6,8 +6,8 @@
 
 [Report Guidelines](https://ucsd-cse15l-w22.github.io/week/week4/#week-4-lab-report)
 
-## 1. Bug Fix 1 - Missed Link
-In lab 3, we came across a bug where the program wouldn't be able to skip lines and included links that were not in proper format.
+## 1. Bug Fix 1 - Skipping lines and excluding links
+In lab 3, we came across a bug where the program wouldn't be able to skip lines and included links that were not in proper format. As can be seen in the following images, we added code to fix these issues.
 
 ![bug-fix-1-0](Images/3-bug-fix-1-0.png)
 ![bug-fix-1-1](Images/3-bug-fix-1-1.png)
