@@ -22,7 +22,7 @@ Code change:
 `test-file1.md` is the _failure-inducing input_ to `MarkdownParse.java`: due to a _bug_ in the body of the `while` loop (`toReturn.add(markdown.substring(openParen + 1, closeParen))`), it caused a _symptom_ in which the program printed the first line of the test file's contents despite it not containing a link.
 
 Output after fix:
-![fixed-output-1](Images/3-fixed-output-1.png)
+![fixed-output-1](Images/3-fixed-output-1.PNG)
 
 ## 2. [Code Change 2](https://github.com/natalieycyoung/markdown-parse/commit/e98aaff90a2c625a3085ec1f47441dc2638ea95d)
 
