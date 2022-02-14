@@ -10,9 +10,7 @@
 In lab 3, we came across a bug where the program wouldn't be able to skip lines and included links that were not in proper format.
 
 Code changes:
-![bug-fix-1-0](Images/3-bug-fix-1-0.PNG)
-![bug-fix-1-1](Images/3-bug-fix-1-1.PNG)
-![bug-fix-1-2](Images/3-bug-fix-1-2.PNG)
+![code-change-1](Images/3-code-change-1.png)
 
 [test-file1.md](https://github.com/natalieycyoung/markdown-parse/blob/main/test-file1.md) was used as the input:
 ![test-file1](Images/3-created-testfile1.png)
