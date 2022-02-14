@@ -15,6 +15,8 @@ Code changes:
 [test-file1.md](https://github.com/natalieycyoung/markdown-parse/blob/main/test-file1.md) was used as the input:
 ![test-file1](Images/3-created-testfile1.png)
 
+**Relationship between bug, symptom, and input**
+`test-file1.md` is the _failure-inducing input_ to `MarkdownParse.java`: due to a _bug_ in the body of the `while` loop (`toReturn.add(markdown.substring(openParen + 1, closeParen))`), it caused a _symptom_ in which the program printed the first line of the test file's contents despite it not containing a link.
 
 ## 2. Bug Fix 2
 
