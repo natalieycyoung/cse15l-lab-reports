@@ -47,15 +47,18 @@ The _bug_ causing the symptom above can be found in the body of the `while` loop
 
 ## 3. [Code Change 3](https://github.com/natalieycyoung/markdown-parse/commit/e98aaff90a2c625a3085ec1f47441dc2638ea95d)
 
-**Code Change**
-![code-change-3](Images/3-code-change-3.png)
-
-[test-file3.md](https://github.com/natalieycyoung/markdown-parse/blob/main/test-file3.md) was used as the input:
+**Failure-inducing input**  
+The third _failure-inducing input_ is [test-file3.md](https://github.com/natalieycyoung/markdown-parse/blob/main/test-file3.md).  
 ![test-file3](Images/3-created-test-file3.png)
 
-**Relationship between bug, symptom, and input**
+**Symptom**  
+The _symptom_ in this case is the output `java.lang.OutOfMemoryError`
 
-`test-file2.md` is the _failure-inducing input_ to `MarkdownParse.java`: due to a _bug_ in the body of the `while` loop (`toReturn.add(markdown.substring(openParen + 1, closeParen))`), it caused a _symptom_ in which the program printed the first line of the test file's contents despite it not containing a link.
+**Bug**  
+The symptom suggests that there is something in the code that causes the program to exceed the Java heap space. The _bug_ can be found in the `while` loop: If there are no brackets in the input, then `currentIndex` is always `0` and therefore less than the length of the contents of `test-file3.md`. This makes the condition `currentIndex < markdown.length()` always true, leading to an infinite loop that exceeds the heap space and causes the `OutOfMemoryError` to be thrown.
 
-Output after fix:
+**Code Change**  
+![code-change-3](Images/3-code-change-3.png)
+
+**Output after fix**  
 ![fixed-output-3](Images/3-fixed-output-3.png)
