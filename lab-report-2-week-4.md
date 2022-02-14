@@ -14,7 +14,7 @@ Code changes:
 ![bug-fix-1-1](Images/3-bug-fix-1-1.PNG)
 ![bug-fix-1-2](Images/3-bug-fix-1-2.PNG)
 
-test-file1 was used as the input:
+[test-file1.md](https://github.com/natalieycyoung/markdown-parse/blob/main/test-file1.md) was used as the input:
 ![test-file1](Images/3-created-testfile1.png)
 
 
