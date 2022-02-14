@@ -10,6 +10,7 @@
 ## 1. [Code Change 1](https://github.com/natalieycyoung/markdown-parse/commit/e98aaff90a2c625a3085ec1f47441dc2638ea95d)
 In lab 3, we came across a bug where the program wouldn't be able to skip lines and included links that were not in proper format.
 
+**Failure-inducing output**
 [test-file1.md](https://github.com/natalieycyoung/markdown-parse/blob/main/test-file1.md) is the first _failure-inducing input_:
 ![test-file1](Images/3-created-test-file1.png)
 
