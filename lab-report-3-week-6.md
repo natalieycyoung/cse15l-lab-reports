@@ -1,6 +1,7 @@
 # Lab Report 3 Week 6
 
-Date: 2022-02-11
+Date Published: 2022-02-11
+Last Modified: 2022-02-24
 
 [Lab 5: It Works on My Machine](https://ucsd-cse15l-w22.github.io/week/week5/)
 
