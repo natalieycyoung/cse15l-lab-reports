@@ -1,6 +1,7 @@
 # Lab Report 4 Week 8
 
-Date: 2022-02-23
+First published: 2022-02-11
+Last modified: 2022-02-24
 
 [Lab 7: Code Review](https://ucsd-cse15l-w22.github.io/week/week7/)
 
