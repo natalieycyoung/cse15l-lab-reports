@@ -28,4 +28,16 @@ I'm now able to `ssh` into `ieng6.ucsd.edu` with the host alias `15l`, using 24 
 
 ![5-ssh-config](Images/5-ssh-config.PNG)
 
-[Some more information on SSH configuration](https://linuxize.com/post/using-the-ssh-config-file/)
+[Some more information on SSH configuration](https://linuxize.com/post/using-the-ssh-config-file/)  
+
+## Lab 5 Group Choice 3 - Copy Whole Directories with `scp -r`  
+
+The `scp` command can be used to copy recursively, simplifying copying entire directories.  
+
+With the command `scp -r *.java *.md lib/ 15l:markdown-parse`, I combined the `scp` command with my chosen SSH alias `15l` so I could copy the `markdown-parse` directory to the `ieng6` remote server:  
+
+![5-scp-ssh](Images/5-scp-ssh.png)
+
+Below are the contents of the copied directory in the remote server.
+
+![5-scp-ieng6](Images/5-scp-ieng6.png)
