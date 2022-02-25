@@ -9,25 +9,50 @@ Last modified: 2022-02-24
 
 [Report Guidelines](https://ucsd-cse15l-w22.github.io/week/week8/#week-8-lab-report)
 
-## Lab 5 Group Choice 1 - Streamlining `ssh` Configuration
+## Testing implementations  
 
-When I log into `ieng6` from my personal device, I need to type in `ssh cs15lwi22aho@ieng6.ucsd.edu`, which is a lot to type and remember. To reduce the amount of typing needed, I created a config file `~/.ssh/config` and put in an entry that communicates the username to SSH when logging into specific servers and allows servers to be aliased.
+Links:
+- [My markdown-parse repo](https://github.com/natalieycyoung/markdown-parse)
+- [Another group's markdown-parse repo](https://github.com/iireneliao/markdown-parse)
 
-Using vim, I added a few lines to my config file to specify the host nickname, host name, and my username.  
+### Snippet 1
+	`[a link`](url.com)
+	
+	[another link](`google.com)`
+	
+	[`cod[e`](google.com)
+	
+	[`code]`](ucsd.edu)
 
-![5-ssh-config-file](Images/5-ssh-config-file.png)
+### Snippet 2
+	[a [nested link](a.com)](b.com)
+	
+	[a nested parenthesized url](a.com(()))
+	
+	[some escaped \[ brackets \]](example.com)
 
-_If there are any issues, another line can be added to explicitly refer to the `id_rsa` file:_  
-```
-Host 15l
-	HostName ieng6.ucsd.edu
-	User cs15lwi22aho
-	IdentityFile ~/.ssh/id_rsa
-```
-
-I'm now able to `ssh` into `ieng6.ucsd.edu` with the host alias `15l`, using 24 keystrokes less `cs15lwi22aho@ieng6.ucsd.edu`:  
-
-![5-ssh-config](Images/5-ssh-config.PNG)
-
-[Some more information on SSH configuration](https://linuxize.com/post/using-the-ssh-config-file/)  
-
+### Snippet 3
+	[this title text is really long and takes up more than 
+	one line
+	
+	and has some line breaks](
+	    https://www.twitter.com
+	)
+	
+	[this title text is really long and takes up more than 
+	one line](
+	    https://ucsd-cse15l-w22.github.io/
+	)
+	
+	
+	[this link doesn't have a closing parenthesis](github.com
+	
+	And there's still some more text after that.
+	
+	[this link doesn't have a closing parenthesis for a while](https://cse.ucsd.edu/
+	
+	
+	
+	)
+	
+	And then there's more text
