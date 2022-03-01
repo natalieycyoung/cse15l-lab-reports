@@ -22,14 +22,21 @@ Links:
 	
 	[`code]`](ucsd.edu)
 
+### My Implementation
+
 The test in my `MarkdownParseTest.java`:  
 ![7-snippet1-nyoung-code-init](Images/7-snippet1-nyoung-code-init.png)
 
 The results of the test:  
 ![7-snippet1-nyoung-fail](Images/7-snippet1-nyoung-fail.png)
 
+### Another Implementation
+
 The test in the other group's `MarkdownParseTest.java`:  
-![7-other-test-1](Images/7-other-test-1.png)
+![7-snippet1-iliao-code-init](Images/7-snippet1-iliao-code-init.png)
+
+The results of the test:
+![7-snippet1-iliao-fail](Images/7-snippet1-iliao-fail.png)
 
 ## Snippet 2
 	[a [nested link](a.com)](b.com)
