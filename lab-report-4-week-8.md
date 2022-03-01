@@ -22,20 +22,17 @@ Links:
 	
 	[`code]`](ucsd.edu)
 
+The test in `MarkdownParseTest.java`:  
+![7-snippet1-test](Images/7-snippet1-test.png)
+
 ### My Implementation
 
-The test in my `MarkdownParseTest.java`:  
-![7-snippet1-nyoung-code-init](Images/7-snippet1-nyoung-code-init.png)
-
-The results of the test:  
+The results of the test on my implementation:  
 ![7-snippet1-nyoung-fail](Images/7-snippet1-nyoung-fail.png)
 
 ### Another Implementation
 
-The test in the other group's `MarkdownParseTest.java`:  
-![7-snippet1-iliao-code-init](Images/7-snippet1-iliao-code-init.png)
-
-The results of the test:
+The results of the test on the other group's implementation:
 ![7-snippet1-iliao-fail](Images/7-snippet1-iliao-fail.png)
 
 ## Snippet 2
@@ -45,20 +42,18 @@ The results of the test:
 	
 	[some escaped \[ brackets \]](example.com)
 
+
+The test in `MarkdownParseTest.java`:  
+![7-snippet2-test](Images/7-snippet2-test.png)
+
 ### My Implementation
 
-The test in my `MarkdownParseTest.java`:  
-![7-snippet2-nyoung-code-init](Images/7-snippet2-nyoung-code-init.png)
-
-The results of the test:  
+The results of the test on my implementation:  
 ![7-snippet2-nyoung-fail](Images/7-snippet2-nyoung-fail.png)
 
 ### Another Implementation
 
-The test in the other group's `MarkdownParseTest.java`:  
-![7-snippet2-iliao-code-init](Images/7-snippet2-iliao-code-init.png)
-
-The results of the test:
+The results of the test on the other group's implementation:  
 ![7-snippet2-iliao-fail](Images/7-snippet2-iliao-fail.png)
 
 ## Snippet 3
@@ -87,18 +82,15 @@ The results of the test:
 	
 	And then there's more text
 
-### My Implementation
+The test in `MarkdownParseTest.java`:  
+![7-snippet3-test](Images/7-snippet3-test.png)
 
-The test in my `MarkdownParseTest.java`:  
-![7-snippet3-nyoung-code-init](Images/7-snippet3-nyoung-code-init.png)
+### My Implementation
 
 The results of the test:  
 ![7-snippet3-nyoung-fail](Images/7-snippet3-nyoung-fail.png)
 
 ### Another Implementation
-
-The test in the other group's `MarkdownParseTest.java`:  
-![7-snippet3-iliao-code-init](Images/7-snippet3-iliao-code-init.png)
 
 The results of the test:
 ![7-snippet3-iliao-fail](Images/7-snippet3-iliao-fail.png)
