@@ -1,7 +1,7 @@
 # Lab Report 4 Week 8 - Testing Implementations
 
 First published: 2022-02-24  
-Last modified: 2022-02-27
+Last modified: 2022-02-28
 
 [Lab 7: Code Review](https://ucsd-cse15l-w22.github.io/week/week7/)
 
@@ -45,11 +45,21 @@ The results of the test:
 	
 	[some escaped \[ brackets \]](example.com)
 
+### My Implementation
+
 The test in my `MarkdownParseTest.java`:  
-![7-my-test-2](Images/7-my-test-2.png)
+![7-snippet2-nyoung-code-init](Images/7-snippet2-nyoung-code-init.png)
+
+The results of the test:  
+![7-snippet2-nyoung-fail](Images/7-snippet2-nyoung-fail.png)
+
+### Another Implementation
 
 The test in the other group's `MarkdownParseTest.java`:  
-![7-other-test-2](Images/7-other-test-2.png)
+![7-snippet2-iliao-code-init](Images/7-snippet2-iliao-code-init.png)
+
+The results of the test:
+![7-snippet2-iliao-fail](Images/7-snippet2-iliao-fail.png)
 
 ## Snippet 3
 	[this title text is really long and takes up more than 
@@ -77,8 +87,18 @@ The test in the other group's `MarkdownParseTest.java`:
 	
 	And then there's more text
 
+### My Implementation
+
 The test in my `MarkdownParseTest.java`:  
-![7-my-test-3](Images/7-my-test-3.png)
+![7-snippet3-nyoung-code-init](Images/7-snippet3-nyoung-code-init.png)
+
+The results of the test:  
+![7-snippet3-nyoung-fail](Images/7-snippet3-nyoung-fail.png)
+
+### Another Implementation
 
 The test in the other group's `MarkdownParseTest.java`:  
-![7-other-test-3](Images/7-other-test-3.png)
+![7-snippet3-iliao-code-init](Images/7-snippet3-iliao-code-init.png)
+
+The results of the test:
+![7-snippet3-iliao-fail](Images/7-snippet3-iliao-fail.png)
