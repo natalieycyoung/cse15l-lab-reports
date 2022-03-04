@@ -35,6 +35,9 @@ The results of the test on my implementation:
 The results of the test on the other group's implementation:
 ![7-snippet1-iliao-fail](Images/7-snippet1-iliao-fail.png)
 
+### Discussion  
+I think there is a less-than-ten-line code change that could make my program work for Snippet 1 and all related cases that use inline code with backticks.
+
 ## Snippet 2
 	[a [nested link](a.com)](b.com)
 	
@@ -55,6 +58,9 @@ The results of the test on my implementation:
 
 The results of the test on the other group's implementation:  
 ![7-snippet2-iliao-fail](Images/7-snippet2-iliao-fail.png)
+
+### Discussion
+I think there is a less-than-ten-line code change that could make my program work for Snippet 2 and all related cases of nested parentheses, brackets, and escaped brackets.
 
 ## Snippet 3
 	[this title text is really long and takes up more than 
@@ -94,3 +100,7 @@ The results of the test:
 
 The results of the test:
 ![7-snippet3-iliao-fail](Images/7-snippet3-iliao-fail.png)
+
+### Discussion
+
+I think there is a less-than-ten-line code change that could make my program work for Snippet 3 and all related cases that have newline characters in brackets and parentheses.
