@@ -28,6 +28,7 @@ The test in `MarkdownParseTest.java`:
 ### My Implementation
 
 ![7-snippet1-nyoung-fail](Images/7-snippet1-nyoung-fail.png)
+
 My implementation failed the test on Snippet 1 since the expected output did not match the actual output; `url.com` was included in the list when it shouldn't have been.  
 Expected output:  
 	[\`google.com, google.com, ucsd.edu]  
@@ -37,6 +38,7 @@ Actual output:
 ### Another Implementation
 
 ![7-snippet1-iliao-fail](Images/7-snippet1-iliao-fail.png)
+
 The other group's implementation also failed the test on Snippet 1 as the expected output and actual output did not match; `url.com` was included in the list when it shouldn't have been and `ucsd.edu` was left out.  
 Expected output:  
 	[\`google.com, google.com, ucsd.edu]
@@ -60,6 +62,7 @@ The test in `MarkdownParseTest.java`:
 ### My Implementation
 
 ![7-snippet2-nyoung-fail](Images/7-snippet2-nyoung-fail.png)
+
 My implementation failed the test on Snippet 2 as the expected and actual outputs did not match; two close parentheses `))` were missing.
 Expected output:  
 	[a.com, a.com(()), example.com]  
@@ -69,6 +72,7 @@ Actual output:
 ### Another Implementation
 
 ![7-snippet2-iliao-fail](Images/7-snippet2-iliao-fail.png)
+
 The other group's implementation also failed the test on Snippet 2 as the expected and actual outputs did not match; two close parentheses `))` and `example.com` were missing from the list.
 Expected output:  
 	[a.com, a.com(()), example.com]  
@@ -110,11 +114,13 @@ The test in `MarkdownParseTest.java`:
 ### My Implementation
 
 ![7-snippet3-nyoung-fail](Images/7-snippet3-nyoung-fail.png)
+
 The test for Snippet 3 on my implementation could not be completed as it got stuck in an infinite loop; I had to use `CTRL-C` to end the process.
 
 ### Another Implementation
 
 ![7-snippet3-iliao-fail](Images/7-snippet3-iliao-fail.png)
+
 The other group's implementation failed the test for Snippet 3 since the expected and actual outputs did not match.
 Expected output:  
 	[https://ucsd-cse15l-w22.github.io/]  
