@@ -1,7 +1,7 @@
 # Lab Report 4 Week 8 - Testing Implementations
 
 First published: 2022-02-24  
-Last modified: 2022-02-28
+Last modified: 2022-03-04
 
 [Lab 7: Code Review](https://ucsd-cse15l-w22.github.io/week/week7/)
 
@@ -30,10 +30,14 @@ The test in `MarkdownParseTest.java`:
 ![7-snippet1-nyoung-fail](Images/7-snippet1-nyoung-fail.png)
 
 My implementation failed the test on Snippet 1 since the expected output did not match the actual output; `url.com` was included in the list when it shouldn't have been.  
+
 Expected output:  
-	[\`google.com, google.com, ucsd.edu]  
+
+	[`google.com, google.com, ucsd.edu]  
+
 Actual output:  
-	[url.com, \`google.com, google.com, ucsd.edu]
+
+	[url.com, `google.com, google.com, ucsd.edu]
 
 ### Another Implementation
 
@@ -43,10 +47,11 @@ The other group's implementation also failed the test on Snippet 1 as the expect
 
 Expected output:  
 
-	[\`google.com, google.com, ucsd.edu]
+	[`google.com, google.com, ucsd.edu]
 
 Actual output:  
-	[url.com, \`google.com, google.com]
+
+	[url.com, `google.com, google.com]
 
 ### Discussion  
 I think there is a less-than-ten-line code change that could make my program work for Snippet 1 and all related cases that use inline code with backticks. My implementation currently takes the backticks within brackets into account, but an `if`-statement could be used to ignore backticks between open and close square brackets until the next set of parentheses are found.
@@ -73,16 +78,21 @@ Expected output:
 	[a.com, a.com(()), example.com]  
 
 Actual output:  
-		[a.com, a.com((, example.com]
+
+	[a.com, a.com((, example.com]
 
 ### Another Implementation
 
 ![7-snippet2-iliao-fail](Images/7-snippet2-iliao-fail.png)
 
 The other group's implementation also failed the test on Snippet 2 as the expected and actual outputs did not match; two close parentheses `))` and `example.com` were missing from the list.
+
 Expected output:  
+
 	[a.com, a.com(()), example.com]  
+
 Actual output:  
+
 	[a.com, a.com((]
 
 ### Discussion
@@ -127,7 +137,7 @@ The test for Snippet 3 on my implementation could not be completed as it got stu
 
 ![7-snippet3-iliao-fail](Images/7-snippet3-iliao-fail.png)  
 
-The other group's implementation failed the test for Snippet 3 since the expected and actual outputs did not match.
+The other group's implementation failed the test for Snippet 3 since the expected and actual outputs did not match; the issue seems to be related to newline `\n` characters.
 
 Expected output:  
 
